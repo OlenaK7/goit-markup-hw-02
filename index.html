@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
-   <header>
+   <header class="page-header">
        <nav>
-       <a href=""><span>Web</span>  Studio
-       </a>
-       <ul>
-           <li> <a href="">Студия</a></li>
-           <li><a href="">Портфолио</a></li>
-           <li><a href="">Контакты</a></li>
+        <a href="/" class="logo">
+            <span class="logo-blue">Web</span>
+            <span class="logo-black">Studio</span>
+        </a>
+       <ul class="site-nav list">
+           <li class="link-focus"><a href="./index.html">Студия</a></li>
+           <li class="link-focus"><a href="./portfolio.html">Портфолио</a></li>
+           <li class="link-focus"><a href="">Контакты</a></li>
        </ul>
-       <ul>
-           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+       <ul class="list-contacts list">
+           <li class="link-focus"><a href="mailto:info@devstudio.com ">info@devstudio.com</a></li>
+           <li class="link-focus"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
        </ul>
     </nav>
    </header>
+   
    <!--Hero-->
-       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+       <section class="hero">
+        <h1 class="hero-item">Эффективные решения для вашего бизнеса</h1>
+        <button class="button">Заказать услугу</button>
        </section>
    <!--Features-->
-   <section>
-       <ul>
+   <section class="features">
+       <ul class="list">
            <li>
             <img src="./images/antenna-1.png" alt width="70">  
             <h2>Внимание к деталям</h2>
@@ -56,9 +62,9 @@
        </ul>
    </section>
    <!--Work-->
-   <section>
+   <section class="work">
        <h3>Чем мы занимаемся</h3>
-       <ul>
+       <ul class="list">
            <li>
                <img src="./images/img111.png" alt width="370">
                <h4>Десктопные приложения</h4>
@@ -75,56 +81,63 @@
            </li>
        </ul>
    </section>
-   <section>
+
+   <section class="workers">
     <h3>Наша команда</h3>
-    <ul>
+    <ul class="list">
         <li>
         <img src="./images/img-john1.png" alt width="270">
         <h4>John Smith</h4>
         <p>Product Designer</p>
-        <ul><li>Instagram</li>
-        <li>Twitter</li>
-        <li>Facebook</li>
-        <li>Linkedin</li></ul>
+     <ul class="list">
+        <li class="link-focus"><a href="https://www.instagram.com">Instagram</a> </li>
+        <li class="link-focus"><a href="https://twitter.com">Twitter</a> </li>
+        <li class="link-focus"><a href="https://www.facebook.com">Facebook</a> </li>
+        <li class="link-focus"><a href="https://www.linkedin.com">Linkedin</a> </li>
+    </ul>
         </li>
 
         <li>
         <img src="./images/img-marta2.png" alt width="270">
         <h4>Marta Stewart</h4>
         <p>Frontend Developer</p>
-        <ul><li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Linkedin</li></ul>
-       </li>
+   
+     <ul class="list">
+        <li class="link-focus"><a href="https://www.instagram.com">Instagram</a> </li>
+        <li class="link-focus"><a href="https://twitter.com">Twitter</a> </li>
+        <li class="link-focus"><a href="https://www.facebook.com">Facebook</a> </li>
+        <li class="link-focus"><a href="https://www.linkedin.com">Linkedin</a> </li></ul>
 
         <li>
         <img src="./images/img-robert3.png" alt width="270">
         <h4>Robert Jakis</h4>
         <p>Marketing</p>
-        <ul><li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Linkedin</li></ul>
-        </li>
-
+       
+     <ul class="list">
+        <li class="link-focus"><a href="https://www.instagram.com">Instagram</a> </li>
+        <li class="link-focus"><a href="https://twitter.com">Twitter</a> </li>
+        <li class="link-focus"><a href="https://www.facebook.com">Facebook</a> </li>
+        <li class="link-focus"><a href="https://www.linkedin.com">Linkedin</a> </li>
+    </ul>
+        
         <li>
         <img src="./images/img-yakis4.png" alt width="270">
         <h4>Martin Doe</h4>
         <p>UI Designer</p>
-        <ul><li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Linkedin</li></ul>
-        </li>
 
-    </ul>
+     <ul class="list">
+        <li class="link-focus"><a href="https://www.instagram.com">Instagram</a> </li>
+        <li class="link-focus"><a href="https://twitter.com">Twitter</a> </li>
+        <li class="link-focus"><a href="https://www.facebook.com">Facebook</a> </li>
+        <li class="link-focus"><a href="https://www.linkedin.com">Linkedin</a> </li></ul>
+        </ul>
+
    </section>
 
    <!--Clients-->
-   <section>
+   <section class="clients">
        <h3>Постоянные клиенты</h3>
-       <ul>
+       <ul class="list">
            <li><img src="./images/logo-1.png" alt=""></li>
            <li><img src="./images/logo-2.png" alt=""></li>
            <li><img src="./images/logo-3.png" alt=""></li>
@@ -134,29 +147,31 @@
        </ul>
    </section>
   <!--Footer-->
-<footer>
-    <a href=""><span>Web</span>  Studio
+<footer class="footer">
+    <a href="/" class="logo">
+        <span class="logo-blue">Web</span>
+        <span class="logo-white">Studio</span>
     </a>
 <address>
     г. Киев, пр-т Леси Украинки, 26 <br>
     <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
     <a href="tel:+380961111111">+38 096 111 11 11</a>
   </address>
-  
- <div>
+   <div>
      <h4>Присоединяйтесь</h4>
-     <ul><li><a href="">Instagram</a> </li>
-        <li><a href="">Twitter</a> </li>
-        <li><a href="">Facebook</a> </li>
-        <li><a href="">Linkedin</a> </li></ul>
-</div>
- <div>
+     <ul class="list">
+         <li><a href="https://www.instagram.com">Instagram</a> </li>
+        <li><a href="https://twitter.com">Twitter</a> </li>
+        <li><a href="https://www.facebook.com">Facebook</a> </li>
+        <li><a href="https://www.linkedin.com">Linkedin</a> </li></ul>
+   </div>
+   <div>
      <span>Подпишитесь на рассылку</span> 
      <a href="">Подписаться</a>
     </div>
     <hr>
-<p>2020 | Developed by GoIT Students </p>
-    </footer>
+    <p class="developed">2020 | Developed by GoIT Students </p>
+</footer>
     
 </body>
 </html>
